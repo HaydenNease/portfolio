@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: #faead6;
 }
 
 .container {
@@ -62,6 +62,7 @@ section:hover {
 
 section img {
   width: 100%;
+  border-radius: 24px;
 }
 
 .featured {
