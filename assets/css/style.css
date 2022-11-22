@@ -37,6 +37,8 @@ article {
 
 .about-details {
   display: flex;
+  flex-wrap: flex-start;
+  flex-direction: row-reverse;
 }
 
 #work {
