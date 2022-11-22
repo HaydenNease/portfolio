@@ -41,6 +41,10 @@ article {
   flex-direction: row-reverse;
 }
 
+.about-details img {
+  border-radius: 24px;
+}
+
 #work {
   display: flex;
   flex-wrap: wrap;
@@ -49,7 +53,11 @@ article {
 
 section {
   width: 50%;  
-  padding: 20px;
+  padding: 20px; 
+}
+
+section:hover {
+  outline-style: inset; 
 }
 
 section img {
@@ -62,4 +70,15 @@ section img {
 
 h2 {
   font-size: 24px;
+}
+
+/* h3 {
+  position: absolute;
+  top: 32px;
+  left: 38px;
+} */
+
+
+.socials img {
+  max-height: 50px;
 }
