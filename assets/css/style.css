@@ -1,3 +1,7 @@
+:root {
+  --accent-color: rgb(255, 209, 148)
+}
+
 body {
   background-color: #faead6;
 }
@@ -9,7 +13,7 @@ body {
 
 footer, header {
   padding: 20px;
-  background-color: rgb(255, 209, 148);
+  background-color: var(--accent-color);
   display: flex;
   justify-content: space-between;
 }
@@ -80,7 +84,7 @@ section img {
 h2 {
   font-size: 36px;
   padding-left: 16px;  
-  background-color: rgb(255, 209, 148);
+  background-color: var(--accent-color);
   width: 100%;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -94,7 +98,7 @@ h3 {
   top: 48px;  
   color: black;
   text-decoration: none;
-  background-color: rgb(255, 209, 148);
+  background-color: var(--accent-color);
   border-top-left-radius: 24px; 
   border-bottom-right-radius: 24px; 
 }
