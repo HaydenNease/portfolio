@@ -1,9 +1,9 @@
 :root {
-  --accent-color: rgb(255, 209, 148)
+  --accent-color: #a7c957;
 }
 
 body {
-  background-color: #faead6;
+  background-color: #f2e8cf;
 }
 
 .container {
